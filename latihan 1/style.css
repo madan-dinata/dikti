@@ -1,0 +1,124 @@
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+}
+
+header {
+    font-weight: bold;
+}
+
+.header_logo {
+    float: left;
+    margin-right: 10pt;
+}
+
+.header_logo>img {
+    height: 60px;
+    width: 60px;
+}
+
+#header_name {
+    font-size: 40px;
+    font-family: headerfont;
+    text-shadow: 5px 5px 5px #a88070;
+    color: #6d3e16;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: headerfont;
+    src: url('./fonts/Lobster_1.3.otf');
+}
+
+nav {
+    height: 45PX;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5pt;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: block;
+}
+
+.background_gradient {
+    background: -webkit-repeating-linear-gradient(left, #9c591e, #723a05);
+    /* for safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #9c591e, #723a05);
+    /* for overa 11.1 -12.0 */
+    background: (left, #9c591e, #723a05);
+    /* for firefox 3.6 to 15 */
+    background: linear-gradient(left, #9c591e, #723a05);
+}
+
+.navlink {
+    width: 145px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+/* .navlink.active {} */
+
+.navlink>img {
+    height: 16px;
+}
+
+#welcome_image {
+    float: left;
+    width: 700px;
+}
+
+#furniture_of_the_mounth {
+    float: right;
+    widows: 290px;
+}
+
+#welcome_text>header {
+    color: #9c591e;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#welcome_text>span {
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    -webkit-column-count: 2;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 2;
+    /* Firefox */
+    column-count: 2;
+}
+
+/* footer */
+
+footer {
+    clear: both;
+    width: 100%;
+    background: #9c591e91;
+    margin: 20px 0px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.smalltext {
+    font-size: 10px;
+}
