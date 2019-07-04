@@ -1,12 +1,298 @@
-img.header_logo {
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+}
+
+header {
+    font-weight: bold;
+}
+
+.header_logo {
+    float: left;
+    margin-right: 10pt;
+}
+
+.header_logo>img {
+    height: 60px;
+    width: 60px;
+}
+
+#header_name {
+    font-size: 40px;
+    font-family: headerfont;
+    text-shadow: 5px 5px 5px #a88070;
+    color: #6d3e16;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: headerfont;
+    src: url('./fonts/Lobster_1.3.otf');
+}
+
+nav {
+    height: 45PX;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5pt;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: block;
+}
+
+.background_gradient {
+    background: -webkit-repeating-linear-gradient(left, #9c591e, #723a05);
+    /* for safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #9c591e, #723a05);
+    /* for overa 11.1 -12.0 */
+    background: (left, #9c591e, #723a05);
+    /* for firefox 3.6 to 15 */
+    background: linear-gradient(left, #9c591e, #723a05);
+}
+
+.navlink {
+    width: 145px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+/* .navlink.active {} */
+
+.navlink>img {
+    height: 16px;
+}
+
+#welcome_image {
+    float: left;
+    width: 700px;
+}
+
+#furniture_of_the_mounth {
+    float: right;
+    widows: 290px;
+}
+
+#welcome_text {
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20;
+    margin-bottom: 20;
+    -webkit-column-count: 2;
+    /*Crome, safari, opera  */
+    -moz-column-count: 2;
+    /* firefox */
+    column-count: 2;
+}
+
+#welcome_text>header {
+    color: #9c591e;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#events {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#events>header {
+    margin-left: 10px;
+    color: #9c591e;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+#events>ul {
+    list-style: none;
+}
+
+#event>ul>li {
+    margin-bottom: 3px;
+}
+
+#best_sellers {
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#best_sellers>header {
+    color: #9c591e;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.furniture_best_sellers {
+    float: left;
+}
+
+.furniture_best_sellers>header {
+    background: #9c591e;
+    color: white;
+    padding-left: 10px;
+}
+
+.accessories_best_seller {
+    clear: both;
+}
+
+.accessories_best_seller>header {
+    height: 30px;
+    line-height: 30px;
+    background: #9c591e;
+    color: white;
+    padding-left: 10px;
+}
+
+.product_article {
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.product_article_thumbnail {
+    width: 100px;
+    height: 100px;
+}
+
+.product_article_clean_name {
+    font-size: 15px;
+    color: #9c591e;
+    font-weight: bold;
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.product_acticle_clear_price {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background: #3d2510;
+    margin: 20px 0px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.smalltext {
+    font-size: 10px;
+}
+
+
+
+/* fdetail product page */
+.furniture_detail {
+    float: left;
+    width: 1000px;
+}
+
+.product_article_large_image {
+    width: 200px;
+    height: 300px;
+}
+
+
+.product_article_clear_large_figure {
+    float: left;
+    margin: 10px;
+}
+
+/* the grid : jumlah ke 4 colomt tersebut sejajar */
+.col {
+    float: left;
+    width: 25%;
+    padding: 3px;
+}
+
+/* style gambar di dalam kotak */
+.col img {
+    width: 50px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.col img:hover {
+    opacity: 1;
+}
+
+/* clear float after coloums */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.product_arcticle_content {
+    width: 75%;
+    float: right;
+}
+
+.product_arcticle_description {
+    word-wrap: normal;
+}
+
+.product_article_price {
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 4px 25px;
+    /* margin: 20px; */
+    background: #9c591e;
+    border: 1px solid #381f09;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+    color: #f3f3f3;
+    font-size: 0.8em;
     width: 80px;
 }
 
-nav.background_gradient {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+.button:hover,
+.add_to_cart_button:focus {
+    background-color: #512c0a;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+
 }
