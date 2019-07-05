@@ -51,7 +51,8 @@ nav ul li {
     display: block;
 }
 
-.background_gradient {
+.background_gradient,
+footer {
     background: -webkit-repeating-linear-gradient(left, #9c591e, #723a05);
     /* for safari 5.1 to 6.0 */
     background: -o-linear-gradient(left, #9c591e, #723a05);
@@ -99,6 +100,7 @@ nav ul li {
     -moz-column-count: 2;
     /* firefox */
     column-count: 2;
+    text-align: justify;
 }
 
 #welcome_text>header {
@@ -201,7 +203,7 @@ figure {
 footer {
     clear: both;
     width: 100%;
-    background: #3d2510;
+    /* background: #3d2510b7; */
     margin: 20px 0px;
     padding: 5px;
     margin-top: 20px;
@@ -213,7 +215,7 @@ footer {
 
 
 
-/* fdetail product page */
+/* detail product page */
 .furniture_detail {
     float: left;
     width: 1000px;
@@ -294,5 +296,67 @@ footer {
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
     box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+
+}
+
+
+/* All Furniture page styles */
+.block_header {
+    font-size: 30px;
+    font-family: headerfont;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.product_article_wide {
+    width: 100%;
+    float: left;
+}
+
+.product_article_wide_thumbnail {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 20px;
+
+}
+
+.product_article_wide_content {
+    width: 70%;
+    float: right;
+    margin-left: 0px;
+    margin-right: 35px;
+}
+
+.product_article_wide_description {
+    /* word-wrap: normal; */
+    font-size: 12px;
+    text-align: justify;
+}
+
+.product_article_wide_name {
+    font-size: 15px;
+    color: #9c591e;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+/* .procuct_article_wide_price {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding: 5px;
+} */
+
+.all_furniture {
+    float: left;
+    width: 80%
+}
+
+#shoping_cart {
+    float: left;
+    width: 20%;
+    margin-bottom: 15px;
 
 }
