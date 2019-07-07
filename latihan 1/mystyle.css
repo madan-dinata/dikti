@@ -360,3 +360,49 @@ footer {
     margin-bottom: 15px;
 
 }
+
+/* halaman contact */
+.text_label {
+    text-align: left;
+    font-size: 14px;
+    margin: 0px;
+    display: block;
+    width: 200px;
+    padding: 2px 5px;
+    float: left;
+}
+
+.text_input {
+    width: 300px;
+    height: 22px;
+    border: 1px solid #888888;
+}
+
+fieldset {
+    padding: 0px;
+    border: none;
+}
+
+fieldset>div {
+    border: 2px solid #888888;
+}
+
+.submit_button {
+    /* margin: 0;
+    padding: 0; */
+    cursor: pointer;
+    padding: 4px 25px;
+    /* margin: 20px; */
+    background: #9c591e;
+    border: 1px solid #381f09;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+    color: #f3f3f3;
+    font-size: 15px;
+    width: 180px;
+    margin-top: 0px;
+}
