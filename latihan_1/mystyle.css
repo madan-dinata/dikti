@@ -406,3 +406,14 @@ fieldset>div {
     width: 180px;
     margin-top: 0px;
 }
+
+#map {
+    float: left;
+    width: 65;
+    height: 60px;
+    margin: 25px;
+}
+
+#driving_direction {
+    float: left;
+}
