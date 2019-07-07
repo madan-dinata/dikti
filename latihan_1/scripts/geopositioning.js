@@ -1,24 +1,21 @@
-window.onload = function () {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(onSuccess, onError, {
-            enableHighAccuracy: true,
-            maximumAge: 1000,
-            timeout: 5000
-        });
-    } else {
-        document.getElementById(map).innerHTML = "No Support for geolocation services, we cannot show you the map";
-    }
+var map;
 
-    function onSuccess(position) {
-        showMap(
-            position.coords.latitude,
-            position.coords.langitude
-        );
-
+function initMap() {
+    // map = new google.maps.Map(document.getElementById('map'), {
+    var uluru = {
+        lat: 1.1183333333333,
+        lng: 104.04805555556
     };
-
-    function onError(error) {
-
-    }
+    // The map, centered at Uluru
+    var map = new google.maps.Map(
+        document.getElementById('map'), {
+            zoom: 14,
+            center: uluru
+        });
+    // The marker, positioned at Uluru
+    var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+    });
 
 }
