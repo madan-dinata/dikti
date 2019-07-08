@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    background: yellowgreen;
+}
+
+.arial {
+    font-family: arial;
+}
+
+.verdana {
+    font-family: verdana;
+}
+
+.tnr {
+    font-family: Times New Roman;
+}
+
+section {
+    background: darkgrey;
+    width: 90%;
+    float: left;
+    /* align-content: center; */
+
+
+
+}
+
+.arial,
+.verdana {
+    color: red;
+}
+
+.pertama,
+.kedua,
+.ketiga {
+
+    /* width: 30%; */
+
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin: 20px;
+
+}
