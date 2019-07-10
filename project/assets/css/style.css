@@ -5,3 +5,7 @@
 .footer-light {
     color: whitesmoke;
 }
+
+body {
+    padding-top: 56px;
+}

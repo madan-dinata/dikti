@@ -1,9 +1,14 @@
 <?php
 
-class About
+class About extends Controller
 {
-    public function page()
+    public function index()
     {
         echo 'cendol';
+    }
+
+    public function test()
+    {
+        echo 'woke';
     }
 }
