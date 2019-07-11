@@ -8,18 +8,23 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
+                        <a class="nav-link" href="<?='/dikti/project/'; ?>">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="<?='/dikti/project/about.php'; ?>">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="<?='/dikti/project/services.php'; ?>">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="<?='/dikti/project/contact.php'; ?>">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?='/dikti/project/login.php'; ?>" class="btn btn-primary" >Login</a>
+                        <a href="<?='/dikti/project/register.php'; ?>" class="btn btn-primary" >Register</a>
+
                     </li>
                 </ul>
             </div>

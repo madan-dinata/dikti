@@ -17,7 +17,7 @@
             <div class="col-lg-9">
 
             <!-- mengambil bagian slide -->
-            <!-- <?php require_once 'slide.php';?> -->
+
 
             <!-- bagian content -->
 
